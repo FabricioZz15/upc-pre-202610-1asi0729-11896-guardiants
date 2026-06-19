@@ -46,6 +46,7 @@
 | 0.1    | 07/04/26 | Navarro Aldoradin, Carolina Celeste | Desarrollo de la Estructura del informe|
 | 0.1    | 07/04/26 | Lozano Quispe, Fabricio Jofred | Desarrollar de la estructura del informe |
 | 0.1    | 07/04/26 | Vite Celis, Rodrigo Matias | Desarrollo de la Estructura del informe|
+| 0.2    | 19/06/26 | Navarro Aldoradin, Carolina Celeste | Sección 5.2.3 (Sprint 3): evidencia de implementación de los ocho bounded contexts en la Web Application con GitFlow, Conventional Commits y tags de versión. |
 
 
 ## Project Report Collaboration Insights
@@ -1796,19 +1797,134 @@ La comunicación del equipo se realizó a través de Discord para reuniones de s
 
 ### 5.2.3.1. Sprint Planning 3. 
 
+En esta sección se documenta el Sprint Planning Meeting del Sprint 3, en el que el equipo GuardiAnts definió como objetivo materializar el diseño orientado a objetos (Class Diagrams del Capítulo IV) en código real dentro de la Web Application (`guardiants-webapp`), implementando los ocho bounded contexts del sistema GOD's Tracker bajo una arquitectura Domain-Driven Design por capas (Domain → Infrastructure → Application).
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-06-03 |
+| Time | 12:00 PM |
+| Location | Reunión virtual vía Discord / Google Meet |
+| Prepared By | Navarro Aldoradin, Carolina Celeste |
+| Attendees (to planning meeting) | Poma Muñoz, Ariadna Geraldine / Navarro Aldoradin, Carolina Celeste / Lozano Quispe, Fabricio Jofred / Vite Celis, Rodrigo Matias |
+| Sprint 2 Review Summary | Durante la revisión del Sprint 2 se validó la estructura base de la Web Application en Angular, las vistas de autenticación y el andamiaje del dashboard de monitoreo, además de la definición inicial de los bounded contexts del backend. Quedó pendiente trasladar el modelo de objetos diseñado (Class Diagrams) a una implementación de dominio completa y consistente en el frontend. |
+| Sprint 2 Retrospective Summary | El equipo identificó como fortaleza la disciplina en el uso de GitFlow y Conventional Commits. Como área de mejora se señaló la necesidad de que la implementación del código siga fielmente los diagramas de clases del Capítulo IV y de evidenciar cada capa (dominio, infraestructura, aplicación) mediante commits granulares y trazables. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Our focus is on implementing in code the object-oriented design of the GOD's Tracker platform, translating the Chapter IV class diagrams into the Angular Web Application across all eight bounded contexts (Shared, Fleet, IAM, Telemetry, Billing, Commands, Alerting and Query). We believe a layered Domain-Driven Design implementation (domain entities and value objects, infrastructure assemblers and APIs, and signal-based application stores) provides a maintainable foundation for the platform's features. This will be confirmed when each bounded context compiles cleanly and its domain, infrastructure and application layers are integrated into `develop` through reviewed feature branches. |
+| Sprint 3 Velocity | 32 Story Points |
+| Sum of Story Points | 32 Story Points |
+
+---
+
 ### 5.2.3.2. Aspect Leaders and Collaborators. 
+
+Para el Sprint 3, el alcance se centra en la implementación del diseño orientado a objetos en la Web Application (`guardiants-webapp`), distribuida por bounded context. La nomenclatura **L** identifica al líder de aspecto y **C** a los colaboradores.
+
+| Team Member (Last Name, First Name) | GitHub Username | Shared / Fleet | IAM / Telemetry | Billing / Commands | Alerting / Query |
+|---|---|---|---|---|---|
+| Navarro Aldoradin, Carolina Celeste | genixmvp | L | L | L | L |
+| Poma Muñoz, Ariadna Geraldine | InAsui | C | C | C | C |
+| Lozano Quispe, Fabricio Jofred | FabricioZz15 | C | C | C | C |
+| Vite Celis, Rodrigo Matias | rodriznnn | C | C | C | C |
+
+---
 
 ### 5.2.3.3. Sprint Backlog 3. 
 
+El objetivo principal del Sprint 3 es implementar en código los ocho bounded contexts del sistema GOD's Tracker, partiendo de los diagramas de clases del Capítulo IV (sección 4.7.1), con una rama *feature* por contexto y commits por capa.
+
+| Sprint # | Sprint 3 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US13 | Módulo compartido (Shared Kernel) | T20 | Capa base de dominio e infraestructura | Implementar `BaseEntity`, value objects (`PaginatedResult`, `DateRange`, `GeoPoint`, `ApiError`), `BaseApi`/`BaseEndpoint`, interceptores HTTP y stores base. | 5 | Navarro Aldoradin, Carolina | Done |
+| US14 | Gestión de flota | T21 | Bounded context Fleet | Implementar entidades (Fleet, Vehicle, VehicleLoan, AlertRule, DrivingReport), ensambladores, `FleetApi` y `useFleetStore`. | 5 | Navarro Aldoradin, Carolina | Done |
+| US07 | Identidad y acceso | T22 | Bounded context IAM | Implementar Account, User, Session, preferencias, ensambladores, `IamApi` y `useIamStore` (autenticación y sesión). | 4 | Navarro Aldoradin, Carolina | Done |
+| US09 | Telemetría en tiempo real | T23 | Bounded context Telemetry | Implementar TelemetryPoint, estado del vehículo, rutas, paradas prolongadas, `TelemetryApi` y `useTelemetryStore` (live stream). | 4 | Navarro Aldoradin, Carolina | Done |
+| US12 | Suscripciones y facturación | T24 | Bounded context Billing | Implementar Plan, Subscription, Payment, notificaciones de fallo, `BillingApi` (Stripe) y `useBillingStore`. | 4 | Navarro Aldoradin, Carolina | Done |
+| US08 | Control remoto del vehículo | T25 | Bounded context Commands | Implementar Command, DeviceHealth, TheftReport, LocationShareLink, `CommandsApi` y `useCommandsStore`. | 4 | Navarro Aldoradin, Carolina | Done |
+| US10 | Seguridad y alertas | T26 | Bounded context Alerting | Implementar motor de reglas, SecurityAlert, acciones de defensa, `AlertingApi` y `useAlertingStore` (delegación a Commands). | 3 | Navarro Aldoradin, Carolina | Done |
+| US11 | Reportes y búsqueda (CQRS) | T27 | Bounded context Query | Implementar read-models (RouteHistoryView, DrivingReportView, OperationalReportView), búsqueda, exportación, `QueryApi` y `useQueryStore`. | 3 | Navarro Aldoradin, Carolina | Done |
+
+---
+
 ### 5.2.3.4. Development Evidence for Sprint Review. 
+
+Durante el Sprint 3, el equipo implementó en la Web Application (`guardiants-webapp`) los ocho bounded contexts diseñados en el Capítulo IV, aplicando estrictamente **GitFlow** (una rama `feature/<contexto>-context` por bounded context, integrada en `develop` mediante *merge* `--no-ff`) y **Conventional Commits** con commits granulares por capa (`domain` → `infrastructure` → `application`). Cada contexto se cerró con un **tag de versión semántica**. La implementación abarcó 62 archivos y ~4,519 líneas de código TypeScript, y cada bounded context compila de forma limpia (`tsc --noEmit`).
+
+A continuación se presentan los *merge commits* hacia `develop` y los *tags* generados por cada bounded context.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited On (Date) |
+|---|---|---|---|---|---|
+| guardiants-webapp | feature/shared-foundation → develop | `370cc25` | Merge feature/shared-foundation into develop | Base entity, value objects, base API/endpoint, interceptores y stores base (tag `v0.1-shared`). | Jun 19, 2026 |
+| guardiants-webapp | feature/fleet-context → develop | `1b953be` | Merge feature/fleet-context into develop | Dominio, ensambladores, FleetApi y useFleetStore (tag `v0.2-fleet`). | Jun 19, 2026 |
+| guardiants-webapp | feature/iam-context → develop | `58ade65` | Merge feature/iam-context into develop | Account, User, Session, IamApi y useIamStore (tag `v0.3-iam`). | Jun 19, 2026 |
+| guardiants-webapp | feature/telemetry-context → develop | `6254c89` | Merge feature/telemetry-context into develop | TelemetryPoint, rutas, TelemetryApi y useTelemetryStore (tag `v0.4-telemetry`). | Jun 19, 2026 |
+| guardiants-webapp | feature/billing-context → develop | `edfeaf1` | Merge feature/billing-context into develop | Plan, Subscription, Payment, BillingApi y useBillingStore (tag `v0.5-billing`). | Jun 19, 2026 |
+| guardiants-webapp | feature/commands-context → develop | `dc2c52a` | Merge feature/commands-context into develop | Command, DeviceHealth, TheftReport, CommandsApi y useCommandsStore (tag `v0.6-commands`). | Jun 19, 2026 |
+| guardiants-webapp | feature/alerting-context → develop | `cfda1c2` | Merge feature/alerting-context into develop | Motor de reglas, SecurityAlert, AlertingApi y useAlertingStore (tag `v0.7-alerting`). | Jun 19, 2026 |
+| guardiants-webapp | feature/query-context → develop | `5788ac0` | Merge feature/query-context into develop | Read-models CQRS, búsqueda, QueryApi y useQueryStore (tag `v0.8-query`). | Jun 19, 2026 |
+
+Ejemplo de la secuencia de commits por capa dentro de un bounded context (Fleet), evidenciando Conventional Commits y el orden Domain → Infrastructure → Application:
+
+| Repository | Branch | Commit ID | Commit Message | Commited On (Date) |
+|---|---|---|---|---|
+| guardiants-webapp | feature/fleet-context | `feat(fleet)` | feat(fleet): add domain model — fleet, vehicle, loan, alert rule, driving report | Jun 19, 2026 |
+| guardiants-webapp | feature/fleet-context | `feat(fleet)` | feat(fleet): add infrastructure — responses, assemblers and multi-endpoint api | Jun 19, 2026 |
+| guardiants-webapp | feature/fleet-context | `1a1a417` | feat(fleet): add application store with signal state, computeds and actions | Jun 19, 2026 |
+
+---
 
 ### 5.2.3.5. Execution Evidence for Sprint Review. 
 
+Al concluir el Sprint 3, la Web Application de GuardiAnts cuenta con la implementación completa del modelo de objetos diseñado para los ocho bounded contexts del sistema GOD's Tracker. Cada contexto quedó estructurado en tres capas siguiendo Domain-Driven Design:
+
+- **Domain:** entidades de negocio y value objects con su lógica (p. ej. `VehicleLoan.isOverdue()`, `AlertRule.isViolatedBy()`, `Subscription.canBeUpgradedTo()`, `SecurityOptions.shouldTriggerAutoDefense()`), heredando de `BaseEntity` del Shared Kernel.
+- **Infrastructure:** contratos *Resource/Response*, ensambladores (*assemblers*) que transforman las respuestas del API en entidades de dominio, y clases *Api* que extienden `BaseApi` y exponen sus endpoints.
+- **Application:** *stores* basados en *signals* de Angular (estado, *computed* y acciones) que orquestan API y ensambladores, p. ej. `useFleetStore`, `useIamStore`, `useAlertingStore` (que delega el bloqueo de motor en `useCommandsStore`).
+
+La verificación de tipos (`tsc -p tsconfig.app.json --noEmit`) sobre el código implementado finaliza sin errores en ninguno de los ocho bounded contexts. La integración se realizó de forma incremental en `develop`, una rama por contexto.
+
+**Video de navegación del Sprint 3:** URL del video: [Insertar URL del video de navegación en Microsoft Stream]
+
+---
+
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review. 
+
+La implementación del Sprint 3 traza una correspondencia directa con los artefactos del Capítulo IV. Cada clase del diagrama de clases (sección 4.7.1) se materializó en un archivo TypeScript dentro de la capa correspondiente, y cada clase `*Api` consume los endpoints del RESTful API documentados con OpenAPI/Swagger. La estructura de carpetas por bounded context en `src/app` es la siguiente:
+
+```
+src/app/
+├── shared/        # Shared Kernel: base.entity, value-objects, base-api, base-endpoint, interceptors, stores
+├── fleet/         # domain/model · infrastructure (fleet-api, assemblers, responses) · application (fleet.store)
+├── iam/           # domain/model · infrastructure (iam-api, assemblers, responses) · application (iam.store)
+├── telemetry/     # domain/model · infrastructure (telemetry-api, assemblers, responses) · application (telemetry.store)
+├── billing/       # domain/model · infrastructure (billing-api, assemblers, responses) · application (billing.store)
+├── commands/      # domain/model · infrastructure (commands-api, assemblers, responses) · application (commands.store)
+├── alerting/      # domain/model · infrastructure (alerting-api, assemblers, responses) · application (alerting.store)
+└── query/         # domain/model · infrastructure (query-api, assemblers, responses) · application (query.store)
+```
+
+Cada `*Api` mapea las operaciones del backend (p. ej. `FleetApi.requestVehicleLoan()`, `IamApi.login()`, `BillingApi.createStripeCheckoutSession()`, `CommandsApi.issueEngineBlock()`), manteniendo la consistencia con los contratos del servicio RESTful interno y la integración con el servicio externo de pagos **Stripe**.
+
+---
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review. 
 
+Durante el Sprint 3 se realizaron las siguientes actividades de configuración y despliegue de la Web Application:
+
+1. Se configuraron los archivos de entorno (`src/environments/environment.ts` y `environment.development.ts`) con la propiedad `apiBaseUrl` para apuntar al RESTful API en producción y en desarrollo local, respectivamente.
+2. Se integró cada bounded context en la rama `develop` mediante *merge* `--no-ff`, preservando la trazabilidad del historial.
+3. Se publicaron las ocho ramas y la rama `develop` en el repositorio remoto, junto con los ocho *tags* de versión semántica (`v0.1-shared` … `v0.8-query`), disponibles en el repositorio de la organización: https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-webapp
+4. Se verificó la compilación del proyecto con `tsc --noEmit` previo a la integración, garantizando que el código integrado en `develop` compila sin errores.
+
+---
+
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 3, el equipo aplicó GitFlow de forma rigurosa para la implementación del diseño orientado a objetos: se creó una rama `feature/<contexto>-context` por cada bounded context y se integró en `develop` únicamente mediante *merge* `--no-ff`, lo que conserva en el historial el agrupamiento de los commits de cada funcionalidad. Los commits se redactaron siguiendo Conventional Commits, con un *scope* por bounded context (`feat(fleet)`, `feat(iam)`, `feat(telemetry)`, etc.) y en el orden de capas Domain → Infrastructure → Application, facilitando la revisión y la trazabilidad respecto a los diagramas del Capítulo IV.
+
+El liderazgo de la implementación de los bounded contexts estuvo a cargo de **Navarro Aldoradin, Carolina (genixmvp)**, quien realizó la integración de las ramas y la generación de los *tags* de versión. La coordinación se mantuvo a través de Discord y WhatsApp, y el seguimiento de tareas mediante GitHub Projects. La política de integración exigió que cada contexto compilara correctamente (`tsc --noEmit`) antes de fusionarse en `develop`.
 
 ## 5.3. Validation Interviews
 

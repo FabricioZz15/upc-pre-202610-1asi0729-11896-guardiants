@@ -62,6 +62,7 @@ https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/
 ### Commits del Report:
 
 **Sprint 1**
+
 Durante el Sprint 1 se realizó la elaboración colaborativa del informe del proyecto utilizando GitHub como plataforma de control de versiones. La participación de los integrantes se evidencia mediante los commits registrados y los analíticos de colaboración mostrados en GitHub Insights, donde se observa la contribución activa de cada miembro del equipo en el desarrollo del reporte.
 
 <div align="center">
@@ -162,17 +163,14 @@ Durante el Sprint 1 se realizó la elaboración colaborativa del informe del pro
 - [Anexos](#anexos)
 
 
-
-# **Student Outcomes**
-
 # **Student Outcomes**
 
 ## Student Outcome - TA1
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Poma Muñoz, Ariadna Geraldine:** Realice la exposición de la problemática asociada a la inseguridad vehicular en Lima y presente la propuesta de valor del proyecto GuardiAnts, explicando los objetivos del producto GOD’s Tracker y la manera en que la solución basada en IoT y telemetría responde a las necesidades identificadas en los segmentos objetivo. Además, participe en la explicación de los hallazgos obtenidos en las entrevistas realizadas a usuarios del segmento de personas naturales y empresas. <br><br> **Navarro Aldoradin, Carolina Celeste:** Desarrolle la presentación de los avances del proyecto durante las reuniones de trabajo y exposiciones académicas, comunicando la organización del equipo, la distribución de responsabilidades y los principales progresos alcanzados en el desarrollo del producto. Asimismo, explique la propuesta tecnológica y los beneficios del monitoreo en tiempo real para la seguridad de vehículos y flotas. <br><br> **Lozano Quispe, Fabricio Jofred:** Realicé la exposición del análisis de entrevistas y de los resultados obtenidos en el proceso de levantamiento de requerimientos, explicando cómo esta información permitió actualizar las Epics, User Stories y Product Backlog. Asimismo, participé en la presentación de la estructura del sistema, detallando el Big Picture Event Storming y el Design-Level Event Storming para facilitar la comprensión del dominio del proyecto. <br><br> **Vite Celis, Rodrigo Matias:** Presente el flujo general del proyecto, explicando las etapas de análisis, diseño e implementación del sistema. Además, desarrolle la exposición de artefactos como User Personas, User Journey Mapping y Product Backlog, facilitando la comprensión de la propuesta tanto para audiencias técnicas como no técnicas. | La comunicación oral del equipo permitió presentar de manera efectiva la propuesta del proyecto GuardiAnts y el producto GOD’s Tracker a diferentes rangos de audiencia. A través de exposiciones claras sobre la problemática, la solución tecnológica y los procesos de desarrollo, se logró transmitir los objetivos y beneficios del sistema. Asimismo, la participación activa de cada integrante fortaleció la coordinación grupal y facilitó una presentación estructurada, comprensible y alineada con los requerimientos académicos del curso. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Poma Muñoz, Ariadna Geraldine:** Realice la redacción de apartados del informe relacionados con la descripción de la startup, la problemática y la propuesta de solución, organizando la información de manera clara y comprensible para diferentes tipos de lectores. Asimismo, documente parte del proceso de entrevistas y los hallazgos del segmento objetivo. <br><br> **Navarro Aldoradin, Carolina Celeste:** Elabore documentación relacionada con la organización del equipo y el desarrollo del informe, registrando avances, distribución de tareas y estructura del proyecto. Además, participe en la redacción de secciones relacionadas con la solución tecnológica y la propuesta de valor del producto. <br><br> **Lozano Quispe, Fabricio Jofred:** Realicé la redacción de parte del Capítulo II y III del informe, incluyendo el diseño y análisis de entrevistas, así como la actualización de Epics, User Stories y Product Backlog. Asimismo, documenté mejoras en SEO Tags, Navigation Systems y Event Storming, asegurando que la información fuera comprensible tanto para perfiles técnicos como no técnicos. <br><br> **Vite Celis, Rodrigo Matias:** Desarrolle la documentación de artefactos como User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y Software Configuration Management. Además, revice y consolide el documento final, mejorando la coherencia, estructura y claridad de la información presentada en el reporte del proyecto. | La comunicación escrita del equipo permitió documentar de manera clara y estructurada el desarrollo del proyecto GuardiAnts, desde la identificación de la problemática hasta la definición de la solución tecnológica. La elaboración colaborativa del informe facilitó la presentación de información técnica y funcional de forma comprensible para distintos tipos de audiencia. Además, la revisión y consolidación del documento fortalecieron su calidad, coherencia y consistencia, permitiendo evidenciar adecuadamente el trabajo realizado durante el desarrollo del proyecto. 
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Poma Muñoz, Ariadna Geraldine:** Realice la exposición de la problemática asociada a la inseguridad vehicular en Lima y presente la propuesta de valor del proyecto GuardiAnts, explicando los objetivos del producto GOD’s Tracker y la manera en que la solución basada en IoT y telemetría responde a las necesidades identificadas en los segmentos objetivo. Además, participe en la explicación de los hallazgos obtenidos en las entrevistas realizadas a usuarios del segmento de personas naturales y empresas. <br><br> **Navarro Aldoradin, Carolina Celeste:** Desarrolle la presentación de los avances del proyecto durante las reuniones de trabajo y exposiciones académicas, comunicando la organización del equipo, la distribución de responsabilidades y los principales progresos alcanzados en el desarrollo del producto. Asimismo, explique la propuesta tecnológica y los beneficios del monitoreo en tiempo real para la seguridad de vehículos y flotas. <br><br> **Lozano Quispe, Fabricio Jofred:** Realicé la exposición del análisis de entrevistas y de los resultados obtenidos en el proceso de levantamiento de requerimientos, explicando cómo esta información permitió actualizar las Epics, User Stories y Product Backlog. Asimismo, participé en la presentación de la estructura del sistema, detallando el Big Picture Event Storming y el Design-Level Event Storming para facilitar la comprensión del dominio del proyecto. <br><br> **Vite Celis, Rodrigo Matias:** Presente el flujo general del proyecto, explicando las etapas de análisis, diseño e implementación del sistema. Además, desarrolle la exposición de artefactos como User Personas, User Journey Mapping y Product Backlog, facilitando la comprensión de la propuesta tanto para audiencias técnicas como no técnicas. | La comunicación oral del equipo permitió presentar de manera efectiva la propuesta del proyecto GuardiAnts y el producto GOD’s Tracker a diferentes rangos de audiencia. A través de exposiciones claras sobre la problemática, la solución tecnológica y los procesos de desarrollo, se logró transmitir los objetivos y beneficios del sistema. Asimismo, la participación activa de cada integrante fortaleció la coordinación grupal y facilitó una presentación estructurada, comprensible y alineada con los requerimientos académicos del curso. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Poma Muñoz, Ariadna Geraldine:** Realice la redacción de apartados del informe relacionados con la descripción de la startup, la problemática y la propuesta de solución, organizando la información de manera clara y comprensible para diferentes tipos de lectores. Asimismo, documente parte del proceso de entrevistas y los hallazgos del segmento objetivo. <br><br> **Navarro Aldoradin, Carolina Celeste:** Elabore documentación relacionada con la organización del equipo y el desarrollo del informe, registrando avances, distribución de tareas y estructura del proyecto. Además, participe en la redacción de secciones relacionadas con la solución tecnológica y la propuesta de valor del producto. <br><br> **Lozano Quispe, Fabricio Jofred:** Realicé la redacción de parte del Capítulo II y III del informe, incluyendo el diseño y análisis de entrevistas, así como la actualización de Epics, User Stories y Product Backlog. Asimismo, documenté mejoras en SEO Tags, Navigation Systems y Event Storming, asegurando que la información fuera comprensible tanto para perfiles técnicos como no técnicos. <br><br> **Vite Celis, Rodrigo Matias:** Desarrolle la documentación de artefactos como User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y Software Configuration Management. Además, revice y consolide el documento final, mejorando la coherencia, estructura y claridad de la información presentada en el reporte del proyecto. | La comunicación escrita del equipo permitió documentar de manera clara y estructurada el desarrollo del proyecto GuardiAnts, desde la identificación de la problemática hasta la definición de la solución tecnológica. La elaboración colaborativa del informe facilitó la presentación de información técnica y funcional de forma comprensible para distintos tipos de audiencia. Además, la revisión y consolidación del documento fortalecieron su calidad, coherencia y consistencia, permitiendo evidenciar adecuadamente el trabajo realizado durante el desarrollo del proyecto. 
 
 # Capítulo I: Introducción
 
@@ -434,9 +432,9 @@ A continuación, se presentan las preguntas dirigidas al segmento empresarial, c
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |--------------|------------------------|--------------------------|--------------------------|
-| 1 | **Nombre:** Luis Lopez <br> **Edad:** 25 <br> **Distrito:** San Borja <br> **Link:** [link ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 0:00 - 3:58|  El entrevistado, trabajador en logística y usuario frecuente de su vehículo, muestra alta preocupación por el robo, reforzada por un intento previo.<br>Considera que las medidas actuales como la alarma y precaución son insuficientes, evidenciando la necesidad de una solución más completa.<br>Valora el monitoreo en tiempo real y las alertas inmediatas (movimiento sospechoso, intento de robo y ubicación), alineándose con la propuesta de GuardiAnts.<br>Prioriza una app simple, rápida y fácil de usar desde el celular, destacando la precisión y confiabilidad del GPS como factores clave.<br>Su perfil digital y disposición a recomendar la solución refuerzan el potencial de adopción del producto. | <p align="center"><img src="https://github.com/user-attachments/assets/3b1bf596-5fa1-444b-b4b2-4f658100e740" width="300"></p> |
-| 2 | **Nombre:** Juana Quispe <br> **Edad:** 47 <br> **Distrito:** El Agustino <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 3:59 - 7:51| La entrevistada, comerciante independiente, evidencia una alta preocupación por la inseguridad vehicular debido al contexto actual de delincuencia en Lima y a experiencias previas de intento de robo y manipulación de su vehículo mientras realizaba sus actividades laborales.<br>Actualmente no cuenta con una medida de seguridad para su auto, pero considera que es insuficiente, ya que busca mayor control y seguimiento constante. Destaca la necesidad de conocer la ubicación de su vehículo en todo momento y recibir alertas inmediatas ante cualquier movimiento sospechoso.<br>Valora especialmente funciones como notificaciones en tiempo real, ubicación precisa y alertas por movimiento, priorizando un sistema que le permita reaccionar rápidamente ante posibles incidentes.<br>Busca una aplicación simple, fácil de usar y accesible desde el celular, que le brinde mayor tranquilidad y control. Además, muestra disposición a adoptar este tipo de tecnología y recomendarla a su entorno si demuestra ser confiable y efectiva. | <p align="center"><img src="https://github.com/user-attachments/assets/1cb0319f-426e-4d72-b3ff-bbfe19d0c88e" width="300"></p> |
-| 3 | **Nombre:** Enrique Castillo <br> **Edad:** 22 <br> **Distrito:** Magdalena <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 7:52 - 12:53| Enrique, un estudiante de 22 años que se mueve por varias zonas de Lima, considera que sí usaría una app de seguridad vehicular sencilla que le permita ver la ubicación de su auto en tiempo real y recibir alertas ante situaciones sospechosas, especialmente por experiencias cercanas de intento de robo. | <p align="center"><img src="https://github.com/user-attachments/assets/183f2f5b-dc91-49ad-b63d-acee24af1438" width="300"></p> |
+| 1 | **Nombre:** Luis Lopez <br> **Edad:** 25 <br> **Distrito:** San Borja <br> **Timing:** *(0:00 - 3:58)* <br> **Link:** [link ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON)| El entrevistado, trabajador en logística y usuario frecuente de su vehículo, muestra alta preocupación por el robo, reforzada por un intento previo.<br>Considera que las medidas actuales como la alarma y precaución son insuficientes, evidenciando la necesidad de una solución más completa.<br>Valora el monitoreo en tiempo real y las alertas inmediatas (movimiento sospechoso, intento de robo y ubicación), alineándose con la propuesta de GuardiAnts.<br>Prioriza una app simple, rápida y fácil de usar desde el celular, destacando la precisión y confiabilidad del GPS como factores clave.<br>Su perfil digital y disposición a recomendar la solución refuerzan el potencial de adopción del producto. | <p align="center"><img src="https://github.com/user-attachments/assets/3b1bf596-5fa1-444b-b4b2-4f658100e740" width="300"></p> |
+| 2 | **Nombre:** Juana Quispe <br> **Edad:** 47 <br> **Distrito:** El Agustino <br> **Timing:** *( 3:59 - 7:51)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | La entrevistada, comerciante independiente, evidencia una alta preocupación por la inseguridad vehicular debido al contexto actual de delincuencia en Lima y a experiencias previas de intento de robo y manipulación de su vehículo mientras realizaba sus actividades laborales.<br>Actualmente no cuenta con una medida de seguridad para su auto, pero considera que es insuficiente, ya que busca mayor control y seguimiento constante. Destaca la necesidad de conocer la ubicación de su vehículo en todo momento y recibir alertas inmediatas ante cualquier movimiento sospechoso.<br>Valora especialmente funciones como notificaciones en tiempo real, ubicación precisa y alertas por movimiento, priorizando un sistema que le permita reaccionar rápidamente ante posibles incidentes.<br>Busca una aplicación simple, fácil de usar y accesible desde el celular, que le brinde mayor tranquilidad y control. Además, muestra disposición a adoptar este tipo de tecnología y recomendarla a su entorno si demuestra ser confiable y efectiva. | <p align="center"><img src="https://github.com/user-attachments/assets/1cb0319f-426e-4d72-b3ff-bbfe19d0c88e" width="300"></p> |
+| 3 | **Nombre:** Enrique Castillo <br> **Edad:** 22 <br> **Distrito:** Magdalena <br> **Timing:** *(7:52 - 12:53)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | Enrique, un estudiante de 22 años que se mueve por varias zonas de Lima, considera que sí usaría una app de seguridad vehicular sencilla que le permita ver la ubicación de su auto en tiempo real y recibir alertas ante situaciones sospechosas, especialmente por experiencias cercanas de intento de robo. | <p align="center"><img src="https://github.com/user-attachments/assets/183f2f5b-dc91-49ad-b63d-acee24af1438" width="300"></p> |
 
 </div>
 
@@ -450,10 +448,9 @@ A partir de las entrevistas, se observa que todos los participantes comparten un
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |--------------|------------------------|--------------------------|--------------------------|
-| 1 | **Nombre:** Jesus Alvites <br> **Edad:** 25 <br> **Distrito:** <br>  **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 12:54 - 18:30| El entrevistado, con experiencia como supervisor de tráfico, confirma que la inseguridad en rutas es frecuente, especialmente en zonas como el Callao o durante paradas donde ocurren robos de carga.<br>Destaca que el monitoreo en tiempo real mediante GPS es indispensable, aunque presenta limitaciones como pérdida de conexión y falta de integración de información.<br>Valora alertas de desvíos o detenciones, acceso a historiales y comunicación con conductores.<br>Busca una solución simple, accesible desde el celular y centralizada que mejore el control, la toma de decisiones y reduzca riesgos operativos. | <p align="center"><img src="https://github.com/user-attachments/assets/1730e97a-50ab-4394-8428-e1933c7a8fe1" width="600"></p> |
-| 2 | **Nombre:** Matias Diaz <br> **Edad:** 25 <br> **Distrito:** San Juan de Lurigancho <br>  **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 18:31 - 22:48| Matias Diaz, quien se desempeña como supervisor de seguridad en una empresa de distribución, destaca que su rol se centra en la prevención de riesgos y el cumplimiento de protocolos durante el traslado de vehículos y carga. Señala que la inseguridad en rutas de Lima Metropolitana es constante, especialmente en zonas de alto riesgo, donde ha presenciado robos y pérdidas operativas.<br>Utiliza herramientas como GPS, radios y reportes manuales, pero considera que estas no son suficientes, ya que requieren complementar información de varias fuentes. Por ello, enfatiza la necesidad de un sistema más completo que muestre la ubicación y el nivel de riesgo de las zonas.<br>Valora especialmente funciones como monitoreo en tiempo real, alertas por desvíos, paradas prolongadas, exceso de velocidad y acceso a historiales de rutas para identificar patrones de riesgo.<br>Busca una plataforma centralizada, rápida y confiable, que le permita reaccionar de inmediato ante emergencias, mejorar el control operativo y reducir tanto riesgos de seguridad como pérdidas económicas en la empresa. | <p align="center"><img src="https://github.com/user-attachments/assets/99b6cbe6-25da-44cd-b540-f0eca42d50c4" width="600"></p> |
-| 3 | **Nombre:** Juan Velasquez <br> **Edad:** 25 <br> **Distrito:** <br>  **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 22:49 - 27:48| Juan revela una necesidad crítica de seguridad y visibilidad operativa, ya que actualmente depende de métodos manuales e ineficientes como llamadas y WhatsApp para gestionar su flota en un entorno de alto riesgo por robos y desvíos. La implementación de un sistema de telemetría se percibe como una inversión estratégica para obtener paz mental mediante el monitoreo en tiempo real y alertas automáticas, buscando no solo proteger el patrimonio y la carga, sino también optimizar costos de combustible y tiempos de entrega a través de una plataforma centralizada y extremadamente sencilla de usar. El interés principal no radica en la tecnología por sí misma, sino en su capacidad de transformar la incertidumbre actual en un control total que garantice la rentabilidad y la profesionalización del servicio frente al cliente. | <p align="center"><img src="https://github.com/user-attachments/assets/d7cb4ad5-a771-4f21-880c-fc4bbc068698" width="600"></p> |
-
+| 1 | **Nombre:** Jesus Alvites <br> **Edad:** 25 <br> **Distrito:** <br> **Timing:** *(12:54 - 18:30)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | El entrevistado, con experiencia como supervisor de tráfico, confirma que la inseguridad en rutas es frecuente, especialmente en zonas como el Callao o durante paradas donde ocurren robos de carga.<br>Destaca que el monitoreo en tiempo real mediante GPS es indispensable, aunque presenta limitaciones como pérdida de conexión y falta de integración de información.<br>Valora alertas de desvíos o detenciones, acceso a historiales y comunicación con conductores.<br>Busca una solución simple, accesible desde el celular y centralizada que mejore el control, la toma de decisiones y reduzca riesgos operativos. | <p align="center"><img src="https://github.com/user-attachments/assets/1730e97a-50ab-4394-8428-e1933c7a8fe1" width="600"></p> |
+| 2 | **Nombre:** Matias Diaz <br> **Edad:** 25 <br> **Distrito:** San Juan de Lurigancho <br> **Timing:** *(18:31 - 22:48)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | Matias Diaz, quien se desempeña como supervisor de seguridad en una empresa de distribución, destaca que su rol se centra en la prevención de riesgos y el cumplimiento de protocolos durante el traslado de vehículos y carga. Señala que la inseguridad en rutas de Lima Metropolitana es constante, especialmente en zonas de alto riesgo, donde ha presenciado robos y pérdidas operativas.<br>Utiliza herramientas como GPS, radios y reportes manuales, pero considera que estas no son suficientes, ya que requieren complementar información de varias fuentes. Por ello, enfatiza la necesidad de un sistema más completo que muestre la ubicación y el nivel de riesgo de las zonas.<br>Valora especialmente funciones como monitoreo en tiempo real, alertas por desvíos, paradas prolongadas, exceso de velocidad y acceso a historiales de rutas para identificar patrones de riesgo.<br>Busca una plataforma centralizada, rápida y confiable, que le permita reaccionar de inmediato ante emergencias, mejorar el control operativo y reducir tanto riesgos de seguridad como pérdidas económicas en la empresa. | <p align="center"><img src="https://github.com/user-attachments/assets/99b6cbe6-25da-44cd-b540-f0eca42d50c4" width="600"></p> |
+| 3 | **Nombre:** Juan Velasquez <br> **Edad:** 25 <br> **Distrito:** <br> **Timing:** *(22:49 - 27:48)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | Juan revela una necesidad crítica de seguridad y visibilidad operativa, ya que actualmente depende de métodos manuales e ineficientes como llamadas y WhatsApp para gestionar su flota en un entorno de alto riesgo por robos y desvíos. La implementación de un sistema de telemetría se percibe como una inversión estratégica para obtener paz mental mediante el monitoreo en tiempo real y alertas automáticas, buscando no solo proteger el patrimonio y la carga, sino también optimizar costos de combustible y tiempos de entrega a través de una plataforma centralizada y extremadamente sencilla de usar. El interés principal no radica en la tecnología por sí misma, sino en su capacidad de transformar la incertidumbre actual en un control total que garantice la rentabilidad y la profesionalización del servicio frente al cliente. | <p align="center"><img src="https://github.com/user-attachments/assets/d7cb4ad5-a771-4f21-880c-fc4bbc068698" width="600"></p> |
 
 </div>
 
@@ -1168,6 +1165,14 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 #### Segmento #1: Persona natural
 
 <div align="center">
+<img width="1190" height="570" alt="image" src="https://github.com/user-attachments/assets/185041c8-cc26-44a2-afe0-1fab610d1025" />
+</div>
+
+<div align="center">
+<img width="1600" height="774" alt="image" src="https://github.com/user-attachments/assets/055a9c46-a331-4392-9533-6e236685bf02" />
+</div>
+
+<div align="center">
     <img src="images/MockupWeb_1.png">
 </div>
 
@@ -1188,6 +1193,15 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 </div>
 
 #### Segmento #2: Empresas
+
+
+<div align="center">
+<img width="1190" height="570" alt="image" src="https://github.com/user-attachments/assets/185041c8-cc26-44a2-afe0-1fab610d1025" />
+</div>
+
+<div align="center">
+<img width="1600" height="848" alt="image" src="https://github.com/user-attachments/assets/0b84846b-3023-40dd-a5dc-cd4f8d712de5" />
+</div>
 
 <div align="center">
     <img src="images/MockupWeb_6.png">
@@ -1213,68 +1227,100 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 
 #### Segmento #1: Persona natural
 
-Como persona natural desde la pestaña de inicio podemos visualizar un resumen de los datos del cliente. Se aprecia 2 botones para bloquear y observar en mapa el vehiculo actual del cliente.
+Al darle click a "Home" se muestra el estado activo del vehículo en, incluyendo indicadores de batería, señal GPS y un mapa interactivo con alertas recientes.
 <div align="center">
     <img src="images/UserFlowWeb_1.png">
 </div>
 
-Si se presiona el boton de block vehicle Aparece este submenu en el que se muestran todos los vehiculos del cliente para realizarles un bloqueo.
+Si queremos una vista ampliada del mapa denominada "FULL MAP", podemos darle click a cualquier parte del mapa. A partir de ellos se ofrece una perspectiva detallada de la ciudad con diversos iconos de alertas y estados de tráfico, permitiendo una navegación más clara mediante el botón "GO BACK".
 <div align="center">
     <img src="images/UserFlowWeb_1.1.png">
 </div>
 
-Como persona natural, quiero poder bloquear mi carro en caso de emergencia.
-
+En la sección "Live Status" se detalla información específica del vehículo, como el modelo y su ubicación exacta, además de mostrar el estado del seguro y el nivel de batería del dispositivo.
 <div align="center">
-    <img src="images/UserFlowWeb_2.png">
+    <img src="image.png">
 </div>
 
-Como persona natural, quiero ver los detalles de mi vehículo 
-
+Pero al darle click al menú desplegable esto nos permite monitorear y bloquear vehículos específicos, detallando su kilometraje, nivel de combustible y variación de eficiencia.
 <div align="center">
-    <img src="images/UserFlowWeb_3.png">
+    <img src="image-1.png">
 </div>
 
-
-
+En la sección de Security Alert se centralizan notificaciones críticas como movimientos sospechosos, manipulación de GPS o exceso de velocidad, permitiendo ver detalles o bloquear el vehículo de forma inmediata.
 <div align="center">
-    <img src="images/UserFlowWeb_4.png">
+    <img src="image-2.png">!
 </div>
 
-Como persona natural, quiero poder cerrar sesión 
-
+Y en la vista detallada de alerta de seguridad se muestra la imagen del vehículo y datos específicos como su ubicación, el nivel de batería del dispositivo al 80% y el estado del seguro.
 <div align="center">
-    <img src="images/UserFlowWeb_5.png">
+    <img src="image-3.png">
 </div>
 
+En la sección de Routes History se muestra el recorrido detallado de una fecha específica, incluyendo el punto de inicio y el final, junto con estadísticas de distancia total y duración del trayecto.
+<div align="center">
+    <img src="image-4.png">
+</div>
+
+También se puede abrir la ventana emergente de Routes que enumera diferentes trayectos guardados, indicando el periodo correspondiente y la fecha de generación para cada ruta. También ofrece opciones de gestión para configurar o eliminar cada registro del historial.
+<div align="center">
+    <img src="image-7.png">
+</div>
+
+Y finalmente en la sección de Configuration se nos permite gestionar los ajustes del dispositivo (modelo GT-1234), personalizar las notificaciones de alertas y configurar parámetros de seguridad como el apagado del motor.
+<div align="center">
+    <img src="image-6.png">
+</div>
 #### Segmento #2: Empresas
 
-Como empresa, quiero poder visualizar mis vehículos mediante filtros, para identificar rápidamente aquellos que requieren atención o cumplen ciertos criterios específicos.
-
+El panel de gestión de activos (Asset Panel) proporciona una visión general de la flota con métricas clave sobre vehículos en tránsito, en pausa o desconectados, junto con gráficos estadísticos de rendimiento semanal y un listado detallado de todas las unidades.
 <div align="center">
-    <img src="images/UserFlowWeb_6.png">
+    <img src="image-8.png">
 </div>
 
+Al dar click en la sección "Live Fleet" podemos monitorear en tiempo real múltiples unidades, presentando un mapa general de la flota y una tabla detallada con el estado, velocidad y última actualización de cada vehículo.
 <div align="center">
-    <img src="images/UserFlowWeb_7.png">
+    <img src="image-9.png">
 </div>
 
-Como empresa, quiero poder visualizar el performance a detalle por mes.
-
+En la sección de Performance Analytics se nos permite evaluar el consumo de combustible y rendimiento de la flota mediante métricas de distancia total, eventos de conducción temeraria y gráficos comparativos de eficiencia por vehículo.
 <div align="center">
-    <img src="images/UserFlowWeb_8.png">
+    <img src="image-10.png">
 </div>
 
-Como empresa, quiero poder visualizar el reporte a detalle de cada conductor 
+En l ventana emergente de Performance se presenta una tabla comparativa mensual desde el inicio del año hasta el momento, indicando el total de vehículos gestionados y el porcentaje de éxito operativo alcanzado en cada periodo.
 <div align="center">
-    <img src="images/UserFlowWeb_9.png">
+    <img src="image-11.png">
 </div>
 
-Como empresa, quiero poder descargar el reporte de cada conductor.
+En la ventana emergente de Performance se presenta una tabla comparativa mensual desde el inicio del año hasta el momento, indicando el total de vehículos gestionados y el porcentaje de éxito operativo alcanzado en cada periodo.
 <div align="center">
-    <img src="images/UserFlowWeb_10.png">
+    <img src="image12.png">
 </div>
 
+En la sección de Driver Management se ofrece un resumen del desempeño de los conductores, mostrando el total de conductores, kilómetros recorridos mensualmente e incidencias registradas, junto con una tabla detallada de reportes individuales que califican el puntaje y la distancia de cada usuario.
+<div align="center">
+    <img src="image13.png">
+</div>
+
+Al dar click en cualquier reporte se abre una ventana que muestra el desglose del rendimiento del conductor, incluyendo un resumen de viajes, distancia total y eficiencia de combustible.
+Cuenta además con una sección de Score Breakdown que califica mediante barras de porcentaje el cumplimiento de velocidad, frenado, aceleración, giro e inactividad.
+
+<div align="center">
+    <img src="image14.png">
+</div>
+
+Finalmente, en la sección de Operational Reports se muestran métricas generales de la flota, como el número de conductores, kilómetros recorridos, porcentaje de conducción segura e incidentes registrados.
+Incluye un listado de reportes generados con detalles sobre el periodo, la fecha de creación y el formato del archivo (PDF o EXCEL), permitiendo la visualización de cada documento mediante el botón "View".
+<div align="center">
+    <img src="image15.png">
+</div>
+
+En la ventana emergente luego de darle click a cualquier reporte se nos permite la descarga de un archivo de reporte específico.
+Esto incluye información sobre el emisor ("Uploaded by: Admin") y un comentario adicional que indica un comportamiento extraño durante la entrega ("Strange behaviour during delivery").
+<div align="center">
+    <img src="image16.png">
+</div>
 
 ## 4.5. Web Applications Prototyping
 
@@ -1282,6 +1328,7 @@ En esta sección se presentan los prototipos de interfaz de usuario desarrollado
 
 Las decisiones de interacción se tomaron considerando principios de usabilidad, accesibilidad, claridad visual y una arquitectura de información coherente. Se priorizó una navegación intuitiva y eficiente, orientada a facilitar el monitoreo, la gestión de incidencias y el acceso rápido a la información relevante dentro del sistema. Asimismo, las jerarquías visuales, los flujos de interacción y la organización de módulos fueron diseñados para optimizar la experiencia del usuario, permitiendo una administración segura, ordenada y comprensible de la plataforma.
 
+[Ver demostración en video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQBV0HHsXTs2RohUs4zrtEtpATJpKMoR2TRktpU1dH_iQkU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mmlbqn)
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -1355,8 +1402,6 @@ Link del miro: https://miro.com/app/board/uXjVHd90Bvk=/?share_link_id=9194028898
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
-
-
 
 <div align="center">
     <img src="images/Diagrama de clases.png">
@@ -1645,7 +1690,7 @@ Al concluir el Sprint 1, el equipo logró desplegar la primera versión funciona
 <img width="1056" height="3856" alt="image" src="https://github.com/user-attachments/assets/0ce05803-f19d-4f65-b0e6-1017466b2a57" />
 </div>
 
-Video de navegación del Sprint 1:
+**Video de navegación del Sprint 1:** URL del video: [[Insertar URL del video de navegación en Microsoft Stream]](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412903_upc_edu_pe/IQC2YdiAyIapT7VLYiERVWQnAcO3exdaEH5mwtu8wvseAEY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zb525J)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -1990,9 +2035,9 @@ A continuación, se presentan las preguntas dirigidas al segmento empresarial, c
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |--------------|------------------------|--------------------------|--------------------------|
-| 1 | **Nombre:** Luis Lopez <br> **Edad:** 25 <br> **Distrito:** San Borja <br> **Link:** [link ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 0:00 - 3:58|  El entrevistado, trabajador en logística y usuario frecuente de su vehículo, muestra alta preocupación por el robo, reforzada por un intento previo.<br>Considera que las medidas actuales como la alarma y precaución son insuficientes, evidenciando la necesidad de una solución más completa.<br>Valora el monitoreo en tiempo real y las alertas inmediatas (movimiento sospechoso, intento de robo y ubicación), alineándose con la propuesta de GuardiAnts.<br>Prioriza una app simple, rápida y fácil de usar desde el celular, destacando la precisión y confiabilidad del GPS como factores clave.<br>Su perfil digital y disposición a recomendar la solución refuerzan el potencial de adopción del producto. | <p align="center"><img src="https://github.com/user-attachments/assets/3b1bf596-5fa1-444b-b4b2-4f658100e740" width="300"></p> |
-| 2 | **Nombre:** Juana Quispe <br> **Edad:** 47 <br> **Distrito:** El Agustino <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 3:59 - 7:51| La entrevistada, comerciante independiente, evidencia una alta preocupación por la inseguridad vehicular debido al contexto actual de delincuencia en Lima y a experiencias previas de intento de robo y manipulación de su vehículo mientras realizaba sus actividades laborales.<br>Actualmente no cuenta con una medida de seguridad para su auto, pero considera que es insuficiente, ya que busca mayor control y seguimiento constante. Destaca la necesidad de conocer la ubicación de su vehículo en todo momento y recibir alertas inmediatas ante cualquier movimiento sospechoso.<br>Valora especialmente funciones como notificaciones en tiempo real, ubicación precisa y alertas por movimiento, priorizando un sistema que le permita reaccionar rápidamente ante posibles incidentes.<br>Busca una aplicación simple, fácil de usar y accesible desde el celular, que le brinde mayor tranquilidad y control. Además, muestra disposición a adoptar este tipo de tecnología y recomendarla a su entorno si demuestra ser confiable y efectiva. | <p align="center"><img src="https://github.com/user-attachments/assets/1cb0319f-426e-4d72-b3ff-bbfe19d0c88e" width="300"></p> |
-| 3 | **Nombre:** Enrique Castillo <br> **Edad:** 22 <br> **Distrito:** Magdalena <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 7:52 - 12:53| Enrique, un estudiante de 22 años que se mueve por varias zonas de Lima, considera que sí usaría una app de seguridad vehicular sencilla que le permita ver la ubicación de su auto en tiempo real y recibir alertas ante situaciones sospechosas, especialmente por experiencias cercanas de intento de robo. | <p align="center"><img src="https://github.com/user-attachments/assets/183f2f5b-dc91-49ad-b63d-acee24af1438" width="300"></p> |
+| 1 | **Nombre:** Luis Lopez <br> **Edad:** 25 <br> **Distrito:** San Borja <br> **Timing:** *(0:00 - 3:58)* <br> **Link:** [link ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON)| El entrevistado, trabajador en logística y usuario frecuente de su vehículo, muestra alta preocupación por el robo, reforzada por un intento previo.<br>Considera que las medidas actuales como la alarma y precaución son insuficientes, evidenciando la necesidad de una solución más completa.<br>Valora el monitoreo en tiempo real y las alertas inmediatas (movimiento sospechoso, intento de robo y ubicación), alineándose con la propuesta de GuardiAnts.<br>Prioriza una app simple, rápida y fácil de usar desde el celular, destacando la precisión y confiabilidad del GPS como factores clave.<br>Su perfil digital y disposición a recomendar la solución refuerzan el potencial de adopción del producto. | <p align="center"><img src="https://github.com/user-attachments/assets/3b1bf596-5fa1-444b-b4b2-4f658100e740" width="300"></p> |
+| 2 | **Nombre:** Juana Quispe <br> **Edad:** 47 <br> **Distrito:** El Agustino <br> **Timing:** *( 3:59 - 7:51)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | La entrevistada, comerciante independiente, evidencia una alta preocupación por la inseguridad vehicular debido al contexto actual de delincuencia en Lima y a experiencias previas de intento de robo y manipulación de su vehículo mientras realizaba sus actividades laborales.<br>Actualmente no cuenta con una medida de seguridad para su auto, pero considera que es insuficiente, ya que busca mayor control y seguimiento constante. Destaca la necesidad de conocer la ubicación de su vehículo en todo momento y recibir alertas inmediatas ante cualquier movimiento sospechoso.<br>Valora especialmente funciones como notificaciones en tiempo real, ubicación precisa y alertas por movimiento, priorizando un sistema que le permita reaccionar rápidamente ante posibles incidentes.<br>Busca una aplicación simple, fácil de usar y accesible desde el celular, que le brinde mayor tranquilidad y control. Además, muestra disposición a adoptar este tipo de tecnología y recomendarla a su entorno si demuestra ser confiable y efectiva. | <p align="center"><img src="https://github.com/user-attachments/assets/1cb0319f-426e-4d72-b3ff-bbfe19d0c88e" width="300"></p> |
+| 3 | **Nombre:** Enrique Castillo <br> **Edad:** 22 <br> **Distrito:** Magdalena <br> **Timing:** *(7:52 - 12:53)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | Enrique, un estudiante de 22 años que se mueve por varias zonas de Lima, considera que sí usaría una app de seguridad vehicular sencilla que le permita ver la ubicación de su auto en tiempo real y recibir alertas ante situaciones sospechosas, especialmente por experiencias cercanas de intento de robo. | <p align="center"><img src="https://github.com/user-attachments/assets/183f2f5b-dc91-49ad-b63d-acee24af1438" width="300"></p> |
 
 </div>
 
@@ -2006,10 +2051,9 @@ A partir de las entrevistas, se observa que todos los participantes comparten un
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |--------------|------------------------|--------------------------|--------------------------|
-| 1 | **Nombre:** Jesus Alvites <br> **Edad:** 25 <br> **Distrito:** <br>  **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 12:54 - 18:30| El entrevistado, con experiencia como supervisor de tráfico, confirma que la inseguridad en rutas es frecuente, especialmente en zonas como el Callao o durante paradas donde ocurren robos de carga.<br>Destaca que el monitoreo en tiempo real mediante GPS es indispensable, aunque presenta limitaciones como pérdida de conexión y falta de integración de información.<br>Valora alertas de desvíos o detenciones, acceso a historiales y comunicación con conductores.<br>Busca una solución simple, accesible desde el celular y centralizada que mejore el control, la toma de decisiones y reduzca riesgos operativos. | <p align="center"><img src="https://github.com/user-attachments/assets/1730e97a-50ab-4394-8428-e1933c7a8fe1" width="600"></p> |
-| 2 | **Nombre:** Matias Diaz <br> **Edad:** 25 <br> **Distrito:** San Juan de Lurigancho <br>  **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 18:31 - 22:48| Matias Diaz, quien se desempeña como supervisor de seguridad en una empresa de distribución, destaca que su rol se centra en la prevención de riesgos y el cumplimiento de protocolos durante el traslado de vehículos y carga. Señala que la inseguridad en rutas de Lima Metropolitana es constante, especialmente en zonas de alto riesgo, donde ha presenciado robos y pérdidas operativas.<br>Utiliza herramientas como GPS, radios y reportes manuales, pero considera que estas no son suficientes, ya que requieren complementar información de varias fuentes. Por ello, enfatiza la necesidad de un sistema más completo que muestre la ubicación y el nivel de riesgo de las zonas.<br>Valora especialmente funciones como monitoreo en tiempo real, alertas por desvíos, paradas prolongadas, exceso de velocidad y acceso a historiales de rutas para identificar patrones de riesgo.<br>Busca una plataforma centralizada, rápida y confiable, que le permita reaccionar de inmediato ante emergencias, mejorar el control operativo y reducir tanto riesgos de seguridad como pérdidas económicas en la empresa. | <p align="center"><img src="https://github.com/user-attachments/assets/99b6cbe6-25da-44cd-b540-f0eca42d50c4" width="600"></p> |
-| 3 | **Nombre:** Juan Velasquez <br> **Edad:** 25 <br> **Distrito:** <br>  **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 22:49 - 27:48| Juan revela una necesidad crítica de seguridad y visibilidad operativa, ya que actualmente depende de métodos manuales e ineficientes como llamadas y WhatsApp para gestionar su flota en un entorno de alto riesgo por robos y desvíos. La implementación de un sistema de telemetría se percibe como una inversión estratégica para obtener paz mental mediante el monitoreo en tiempo real y alertas automáticas, buscando no solo proteger el patrimonio y la carga, sino también optimizar costos de combustible y tiempos de entrega a través de una plataforma centralizada y extremadamente sencilla de usar. El interés principal no radica en la tecnología por sí misma, sino en su capacidad de transformar la incertidumbre actual en un control total que garantice la rentabilidad y la profesionalización del servicio frente al cliente. | <p align="center"><img src="https://github.com/user-attachments/assets/d7cb4ad5-a771-4f21-880c-fc4bbc068698" width="600"></p> |
-
+| 1 | **Nombre:** Jesus Alvites <br> **Edad:** 25 <br> **Distrito:** <br> **Timing:** *(12:54 - 18:30)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | El entrevistado, con experiencia como supervisor de tráfico, confirma que la inseguridad en rutas es frecuente, especialmente en zonas como el Callao o durante paradas donde ocurren robos de carga.<br>Destaca que el monitoreo en tiempo real mediante GPS es indispensable, aunque presenta limitaciones como pérdida de conexión y falta de integración de información.<br>Valora alertas de desvíos o detenciones, acceso a historiales y comunicación con conductores.<br>Busca una solución simple, accesible desde el celular y centralizada que mejore el control, la toma de decisiones y reduzca riesgos operativos. | <p align="center"><img src="https://github.com/user-attachments/assets/1730e97a-50ab-4394-8428-e1933c7a8fe1" width="600"></p> |
+| 2 | **Nombre:** Matias Diaz <br> **Edad:** 25 <br> **Distrito:** San Juan de Lurigancho <br> **Timing:** *(18:31 - 22:48)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | Matias Diaz, quien se desempeña como supervisor de seguridad en una empresa de distribución, destaca que su rol se centra en la prevención de riesgos y el cumplimiento de protocolos durante el traslado de vehículos y carga. Señala que la inseguridad en rutas de Lima Metropolitana es constante, especialmente en zonas de alto riesgo, donde ha presenciado robos y pérdidas operativas.<br>Utiliza herramientas como GPS, radios y reportes manuales, pero considera que estas no son suficientes, ya que requieren complementar información de varias fuentes. Por ello, enfatiza la necesidad de un sistema más completo que muestre la ubicación y el nivel de riesgo de las zonas.<br>Valora especialmente funciones como monitoreo en tiempo real, alertas por desvíos, paradas prolongadas, exceso de velocidad y acceso a historiales de rutas para identificar patrones de riesgo.<br>Busca una plataforma centralizada, rápida y confiable, que le permita reaccionar de inmediato ante emergencias, mejorar el control operativo y reducir tanto riesgos de seguridad como pérdidas económicas en la empresa. | <p align="center"><img src="https://github.com/user-attachments/assets/99b6cbe6-25da-44cd-b540-f0eca42d50c4" width="600"></p> |
+| 3 | **Nombre:** Juan Velasquez <br> **Edad:** 25 <br> **Distrito:** <br> **Timing:** *(22:49 - 27:48)* <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) | Juan revela una necesidad crítica de seguridad y visibilidad operativa, ya que actualmente depende de métodos manuales e ineficientes como llamadas y WhatsApp para gestionar su flota en un entorno de alto riesgo por robos y desvíos. La implementación de un sistema de telemetría se percibe como una inversión estratégica para obtener paz mental mediante el monitoreo en tiempo real y alertas automáticas, buscando no solo proteger el patrimonio y la carga, sino también optimizar costos de combustible y tiempos de entrega a través de una plataforma centralizada y extremadamente sencilla de usar. El interés principal no radica en la tecnología por sí misma, sino en su capacidad de transformar la incertidumbre actual en un control total que garantice la rentabilidad y la profesionalización del servicio frente al cliente. | <p align="center"><img src="https://github.com/user-attachments/assets/d7cb4ad5-a771-4f21-880c-fc4bbc068698" width="600"></p> |
 
 </div>
 
@@ -2199,10 +2243,10 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 # Anexos
 
-- **Web Application (Frontend):**
-- **Landing Page:** [https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/](https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/)
-- **JSON Server (Mock API):**
-- **Web Application Source:**
-- **Backend Platform Source:**
+- **Web Application (Frontend):** [God's Tracker Web App](https://godstracker.netlify.app/login)
+- **Landing Page:** [God's Tracker Website](https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/)
+- **JSON Server (Mock API):** mocks-api-guardiants.azurewebsites.net
+- **Web Application Source:** [guardiants-webapp](https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-webapp)
+- **Backend Platform Source:** [guardiants-platform](https://github.com/upc-pre-202610-1asi0729-11896-guardiant)
 - **Entrevistas de Segmentos:**
-- **Figma** [https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1](https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1)
+- **Figma:** [https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1](https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1)

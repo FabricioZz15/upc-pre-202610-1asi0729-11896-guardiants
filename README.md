@@ -1413,8 +1413,70 @@ El diagrama de contexto (Nivel 1 del modelo C4) representa a **GOD's TRACKER** y
 
 ### 4.7.1. Class Diagrams
 
+El diseño orientado a objetos de la Web Application se organiza por **bounded context**, siguiendo una arquitectura por capas de Domain-Driven Design (Domain → Infrastructure → Application). Cada diagrama de clases describe las entidades de dominio y value objects, los contratos *Resource/Response* y *assemblers* de la capa de infraestructura, las clases *Api* que extienden `BaseApi`, y los *stores* de la capa de aplicación. Estos diagramas son la base directa de la implementación evidenciada en el Sprint 3 (sección 5.2.3).
+
+#### Shared Kernel
+
+Módulo transversal con las primitivas reutilizadas por todos los bounded contexts: `BaseEntity`, value objects (`PaginatedResult`, `DateRange`, `GeoPoint`, `ApiError`), `BaseApi`/`BaseEndpoint`, interceptores HTTP y stores base.
+
 <div align="center">
-    <img src="images/Diagrama de clases.png">
+    <img src="images/ClassDiagram_Shared.png">
+</div>
+
+#### Bounded Context: IAM (Identity & Access Management)
+
+Registro, verificación de correo, autenticación JWT y sesiones, cambio de contraseña, perfil y preferencias (idioma/tema).
+
+<div align="center">
+    <img src="images/ClassDiagram_IAM.png">
+</div>
+
+#### Bounded Context: Fleet
+
+Gestión de flotas y vehículos, asignación de dispositivos IoT, reglas de alerta y el flujo de préstamo de vehículos (solicitud → aprobación → asignación → devolución), además de reportes de conducción.
+
+<div align="center">
+    <img src="images/ClassDiagram_Fleet.png">
+</div>
+
+#### Bounded Context: Telemetry
+
+Puntos de telemetría en tiempo real, estado general del vehículo, historial de rutas, desviaciones, paradas prolongadas y reportes de conducción.
+
+<div align="center">
+    <img src="images/ClassDiagram_Telemetry.png">
+</div>
+
+#### Bounded Context: Alerting (Security & Alerting)
+
+Motor de reglas, geocercas, alertas de seguridad (generación, filtrado, reconocimiento y cierre), protocolo de defensa automática y preferencias de notificación.
+
+<div align="center">
+    <img src="images/ClassDiagram_Alerting.png">
+</div>
+
+#### Bounded Context: Commands (Remote Control)
+
+Comandos de control remoto al dispositivo IoT (bloqueo de motor, reinicio), reporte de robo, compartición de ubicación y verificación de salud del dispositivo.
+
+<div align="center">
+    <img src="images/ClassDiagram_Commands.png">
+</div>
+
+#### Bounded Context: Billing (Subscriptions & Billing)
+
+Selección de planes, procesamiento de pagos con Stripe, activación/suspensión de suscripciones, renovación y cambios de plan.
+
+<div align="center">
+    <img src="images/ClassDiagram_Billing.png">
+</div>
+
+#### Bounded Context: Query (Query & Reporting — CQRS)
+
+Read-models construidos a partir de eventos de Telemetry, Fleet y Alerting: historial de rutas, reportes de conducción y operacionales, búsqueda transversal y exportación de reportes.
+
+<div align="center">
+    <img src="images/ClassDiagram_Query.png">
 </div>
 
 ## 4.8. Database Design

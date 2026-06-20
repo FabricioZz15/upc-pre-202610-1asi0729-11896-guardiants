@@ -1423,6 +1423,33 @@ Módulo transversal con las primitivas reutilizadas por todos los bounded contex
     <img src="images/ClassDiagram_Shared.png">
 </div>
 
+**Vista por capas (closeup) para mejor legibilidad:**
+
+*Capa de Dominio — entidades de negocio y value objects con su lógica.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Shared_Domain.png">
+</div>
+
+*Capa de Aplicación — store basado en signals (estado, computed y acciones).*
+
+<div align="center">
+    <img src="images/ClassDiagram_Shared_Application.png">
+</div>
+
+*Capa de Infraestructura — contratos Resource/Response, assemblers y clase Api.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Shared_Infrastructure.png">
+</div>
+
+*Capa de Presentación — vistas, componentes y rutas.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Shared_Presentation.png">
+</div>
+
+
 #### Bounded Context: IAM (Identity & Access Management)
 
 Registro, verificación de correo, autenticación JWT y sesiones, cambio de contraseña, perfil y preferencias (idioma/tema).
@@ -1430,6 +1457,33 @@ Registro, verificación de correo, autenticación JWT y sesiones, cambio de cont
 <div align="center">
     <img src="images/ClassDiagram_IAM.png">
 </div>
+
+**Vista por capas (closeup) para mejor legibilidad:**
+
+*Capa de Dominio — entidades de negocio y value objects con su lógica.*
+
+<div align="center">
+    <img src="images/ClassDiagram_IAM_Domain.png">
+</div>
+
+*Capa de Aplicación — store basado en signals (estado, computed y acciones).*
+
+<div align="center">
+    <img src="images/ClassDiagram_IAM_Application.png">
+</div>
+
+*Capa de Infraestructura — contratos Resource/Response, assemblers y clase Api.*
+
+<div align="center">
+    <img src="images/ClassDiagram_IAM_Infrastructure.png">
+</div>
+
+*Capa de Presentación — vistas, componentes y rutas.*
+
+<div align="center">
+    <img src="images/ClassDiagram_IAM_Presentation.png">
+</div>
+
 
 #### Bounded Context: Fleet
 
@@ -1439,6 +1493,33 @@ Gestión de flotas y vehículos, asignación de dispositivos IoT, reglas de aler
     <img src="images/ClassDiagram_Fleet.png">
 </div>
 
+**Vista por capas (closeup) para mejor legibilidad:**
+
+*Capa de Dominio — entidades de negocio y value objects con su lógica.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Fleet_Domain.png">
+</div>
+
+*Capa de Aplicación — store basado en signals (estado, computed y acciones).*
+
+<div align="center">
+    <img src="images/ClassDiagram_Fleet_Application.png">
+</div>
+
+*Capa de Infraestructura — contratos Resource/Response, assemblers y clase Api.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Fleet_Infrastructure.png">
+</div>
+
+*Capa de Presentación — vistas, componentes y rutas.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Fleet_Presentation.png">
+</div>
+
+
 #### Bounded Context: Telemetry
 
 Puntos de telemetría en tiempo real, estado general del vehículo, historial de rutas, desviaciones, paradas prolongadas y reportes de conducción.
@@ -1446,6 +1527,33 @@ Puntos de telemetría en tiempo real, estado general del vehículo, historial de
 <div align="center">
     <img src="images/ClassDiagram_Telemetry.png">
 </div>
+
+**Vista por capas (closeup) para mejor legibilidad:**
+
+*Capa de Dominio — entidades de negocio y value objects con su lógica.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Telemetry_Domain.png">
+</div>
+
+*Capa de Aplicación — store basado en signals (estado, computed y acciones).*
+
+<div align="center">
+    <img src="images/ClassDiagram_Telemetry_Application.png">
+</div>
+
+*Capa de Infraestructura — contratos Resource/Response, assemblers y clase Api.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Telemetry_Infrastructure.png">
+</div>
+
+*Capa de Presentación — vistas, componentes y rutas.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Telemetry_Presentation.png">
+</div>
+
 
 #### Bounded Context: Alerting (Security & Alerting)
 
@@ -1455,6 +1563,33 @@ Motor de reglas, geocercas, alertas de seguridad (generación, filtrado, reconoc
     <img src="images/ClassDiagram_Alerting.png">
 </div>
 
+**Vista por capas (closeup) para mejor legibilidad:**
+
+*Capa de Dominio — entidades de negocio y value objects con su lógica.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Alerting_Domain.png">
+</div>
+
+*Capa de Aplicación — store basado en signals (estado, computed y acciones).*
+
+<div align="center">
+    <img src="images/ClassDiagram_Alerting_Application.png">
+</div>
+
+*Capa de Infraestructura — contratos Resource/Response, assemblers y clase Api.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Alerting_Infrastructure.png">
+</div>
+
+*Capa de Presentación — vistas, componentes y rutas.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Alerting_Presentation.png">
+</div>
+
+
 #### Bounded Context: Commands (Remote Control)
 
 Comandos de control remoto al dispositivo IoT (bloqueo de motor, reinicio), reporte de robo, compartición de ubicación y verificación de salud del dispositivo.
@@ -1462,6 +1597,33 @@ Comandos de control remoto al dispositivo IoT (bloqueo de motor, reinicio), repo
 <div align="center">
     <img src="images/ClassDiagram_Commands.png">
 </div>
+
+**Vista por capas (closeup) para mejor legibilidad:**
+
+*Capa de Dominio — entidades de negocio y value objects con su lógica.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Commands_Domain.png">
+</div>
+
+*Capa de Aplicación — store basado en signals (estado, computed y acciones).*
+
+<div align="center">
+    <img src="images/ClassDiagram_Commands_Application.png">
+</div>
+
+*Capa de Infraestructura — contratos Resource/Response, assemblers y clase Api.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Commands_Infrastructure.png">
+</div>
+
+*Capa de Presentación — vistas, componentes y rutas.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Commands_Presentation.png">
+</div>
+
 
 #### Bounded Context: Billing (Subscriptions & Billing)
 
@@ -1471,6 +1633,33 @@ Selección de planes, procesamiento de pagos con Stripe, activación/suspensión
     <img src="images/ClassDiagram_Billing.png">
 </div>
 
+**Vista por capas (closeup) para mejor legibilidad:**
+
+*Capa de Dominio — entidades de negocio y value objects con su lógica.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Billing_Domain.png">
+</div>
+
+*Capa de Aplicación — store basado en signals (estado, computed y acciones).*
+
+<div align="center">
+    <img src="images/ClassDiagram_Billing_Application.png">
+</div>
+
+*Capa de Infraestructura — contratos Resource/Response, assemblers y clase Api.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Billing_Infrastructure.png">
+</div>
+
+*Capa de Presentación — vistas, componentes y rutas.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Billing_Presentation.png">
+</div>
+
+
 #### Bounded Context: Query (Query & Reporting — CQRS)
 
 Read-models construidos a partir de eventos de Telemetry, Fleet y Alerting: historial de rutas, reportes de conducción y operacionales, búsqueda transversal y exportación de reportes.
@@ -1478,6 +1667,33 @@ Read-models construidos a partir de eventos de Telemetry, Fleet y Alerting: hist
 <div align="center">
     <img src="images/ClassDiagram_Query.png">
 </div>
+
+**Vista por capas (closeup) para mejor legibilidad:**
+
+*Capa de Dominio — entidades de negocio y value objects con su lógica.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Query_Domain.png">
+</div>
+
+*Capa de Aplicación — store basado en signals (estado, computed y acciones).*
+
+<div align="center">
+    <img src="images/ClassDiagram_Query_Application.png">
+</div>
+
+*Capa de Infraestructura — contratos Resource/Response, assemblers y clase Api.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Query_Infrastructure.png">
+</div>
+
+*Capa de Presentación — vistas, componentes y rutas.*
+
+<div align="center">
+    <img src="images/ClassDiagram_Query_Presentation.png">
+</div>
+
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams

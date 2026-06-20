@@ -1694,6 +1694,80 @@ Read-models construidos a partir de eventos de Telemetry, Fleet y Alerting: hist
     <img src="images/ClassDiagram_Query_Presentation.png">
 </div>
 
+### Diagramas de Clases del Backend (GOD's Tracker Platform — Spring Boot)
+
+Además del diseño orientado a objetos de la Web Application, se modela el **RESTful API** de desarrollo interno (`gods-tracker-platform`), implementado en **Java con Spring Boot** bajo una arquitectura **Domain-Driven Design** y **hexagonal** (puertos y adaptadores). Cada bounded context se organiza en cuatro capas:
+
+- **Domain:** aggregate roots (que extienden `AbstractDomainAggregateRoot`), entities, value objects, enums, *commands*, *queries* y *domain events*, junto con las interfaces de repositorio (puertos).
+- **Application:** *command services* y *query services* (interfaces + implementaciones internas), *event handlers* y *outbound services* / ACL hacia otros bounded contexts y sistemas externos (Stripe, MQTT, FCM).
+- **Infrastructure:** persistencia con JPA (persistence entities que extienden `AuditableAbstractPersistenceEntity`, *assemblers*, *adapters* y repositorios Spring Data), y los adaptadores de integración externos.
+- **Interfaces:** controladores REST, *resources* (request/response) y *transform assemblers*.
+
+> Nota: estos diagramas se generaron a partir de las guías de implementación del backend. Los contextos marcados con sufijo de parte (IAM, Fleet, Telemetry, Alerting) reflejan el alcance cubierto por la guía correspondiente.
+
+#### Backend — Shared Kernel
+
+Primitivas transversales del backend: `AbstractDomainAggregateRoot`, `AuditableAbstractPersistenceEntity`, el `Result`/`ApplicationError` de la capa de aplicación, los *assemblers* de respuesta/errores y la configuración de seguridad (JWT), hashing y OpenAPI.
+
+<div align="center">
+    <img src="images/ClassDiagram_Backend_Shared.png">
+</div>
+
+#### Backend — IAM (Identity & Access Management)
+
+Aggregates `Account` y `User`, value objects de perfil/preferencias, *commands* y *queries* de registro, verificación, autenticación y actualización, con sus *command/query services*, persistencia JPA y controladores REST.
+
+<div align="center">
+    <img src="images/ClassDiagram_Backend_IAM.png">
+</div>
+
+#### Backend — Billing
+
+Aggregates `Subscription`, `Plan` y `Payment`, integración con **Stripe** vía *outbound service*, *event handlers* y servicios de aplicación para selección de plan, pago y renovación.
+
+<div align="center">
+    <img src="images/ClassDiagram_Backend_Billing.png">
+</div>
+
+#### Backend — Fleet
+
+Aggregates de flota, vehículo, asignación de dispositivos y préstamos de vehículos, con sus value objects, *commands* y servicios de dominio/aplicación.
+
+<div align="center">
+    <img src="images/ClassDiagram_Backend_Fleet.png">
+</div>
+
+#### Backend — Telemetry
+
+Recepción y consulta de telemetría en tiempo real (SSE con Reactor), aggregates de puntos de telemetría y estado del vehículo, *queries* de rutas y reportes, con persistencia JPA y controladores REST.
+
+<div align="center">
+    <img src="images/ClassDiagram_Backend_Telemetry.png">
+</div>
+
+#### Backend — Alerting
+
+Motor de reglas, `SecurityAlert`, acciones de defensa automática y preferencias de notificación, con *outbound service* de **FCM** (push), *event handlers* y servicios de aplicación.
+
+<div align="center">
+    <img src="images/ClassDiagram_Backend_Alerting.png">
+</div>
+
+#### Backend — Commands (Remote Control)
+
+Aggregates `Command`, `TheftReport`, `LocationShareLink` y `DeviceHealth`, con *outbound service* **MQTT** hacia el dispositivo IoT, ACL hacia otros contextos y el ciclo de vida de despacho/acknowledge de comandos.
+
+<div align="center">
+    <img src="images/ClassDiagram_Backend_Commands.png">
+</div>
+
+#### Backend — Query (Query & Reporting — CQRS)
+
+Read-models e *projections* construidos a partir de eventos de Telemetry, Fleet y Alerting: historial de rutas, reportes de conducción y operacionales, búsqueda transversal y exportación de reportes.
+
+<div align="center">
+    <img src="images/ClassDiagram_Backend_Query.png">
+</div>
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams

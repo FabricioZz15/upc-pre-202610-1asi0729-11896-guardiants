@@ -1344,6 +1344,16 @@ Link del miro: https://miro.com/app/board/uXjVHd90Bvk=/?share_link_id=9194028898
 
 
 ### 4.6.2. Software Architecture Context Diagram
+El diagrama de contexto (Nivel 1 del modelo C4) representa a **GOD's TRACKER** y lo identifica como un sistema completo, además que detalla su relación con actores y sistemas externos. 
+
+**Elementos del diagrama:**
+- ***GOD's TRACKER***: Sistema centralizado que ofrece las funcionalidades de localización, gestión y seguridad de vehículos, tanto particulares como a nivel de flotas. Además incluye funcionalidades de telemetría que facilitan el mantenimiento preventivo de la unidad y el seguimiento del comportamiento de conducción.
+- ***Individual Owner***: Persona natural que utiliza la plataforma para proteger su propio vehículo de los robos y encontrarlo en caso de este.
+- ***Fleet Administrator***: Persona de nivel administrativo-empresarial, parte de una empresa u organismo gubernamental. Utiliza la plataforma para gestionar las autorizaciones de uso de vehículos, monitorear el comportamiento de conducción de los choferes de la flota, así como hacer seguimiento al cumplimiento de rutas y analizar información crítica del vehículo para evitar paradas.  
+- ***External Systems***:
+    - **IoT Device**: Dispositivo con capacidades GNSS (Global Navigation Satellite System), y envío por red (2G, 3G, 4G, 5G). Opcionalmente, puede recibir información de telemetría a través de sus accesorios inalámbricos, o en el caso de que esté conectado al sistema eléctrico del vehículo, por medio del bus CAN.
+    - **Push Provider**: 
+    - **Stripe**: Gestión de pagos seguros y estado de suscripciones.
 
 <div align="center">
     <img src="images/Context_Diagram.png">
@@ -2221,7 +2231,6 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
     - Compromiso con la Calidad Documental: La consolidación de un reporte técnico detallado, que incluye desde el Lean UX Canvas hasta especificaciones de diseño UI/UX, establece un estándar de calidad alto para el proyecto. Esto garantiza que cualquier stakeholder o futuro desarrollador pueda comprender la lógica de negocio y las decisiones técnicas detrás de GuardiAnts.
 # Bibliografía
 
-
 *   **Conventional Commits.** (s.f.). *A specification for adding human and machine readable meaning to commit messages*. Recuperado de [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
 *   **Driessen, V. (2010).** *A successful Git branching model*. nvie.com. Recuperado de [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
 *   **Preston-Werner, T. (s.f.).** *Semantic Versioning 2.0.0*. Recuperado de [https://semver.org/](https://semver.org/)
@@ -2240,6 +2249,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 *   **GitHub Docs.** (2024). *GitHub Pages Documentation*. Recuperado de [https://docs.github.com/en/pages](https://docs.github.com/en/pages)
 *   **Google Developers.** (s.f.). *Web Fundamentals: Responsive Web Design*. Recuperado de [https://developers.google.com/web/fundamentals/design-and-ux/responsive](https://developers.google.com/web/fundamentals/design-and-ux/responsive)
 *   **Mozilla Contributors.** (2024). *MDN Web Docs: HTML, CSS and JavaScript guides*. Recuperado de [https://developer.mozilla.org/](https://developer.mozilla.org/)
+*   **Colaboradores de Wikipedia.** (2026, February 8). *Sistema global de navegación por satélite*. Wikipedia, La Enciclopedia Libre. Recuperado de [https://es.wikipedia.org/wiki/Sistema_global_de_navegaci%C3%B3n_por_sat%C3%A9lite](https://es.wikipedia.org/wiki/Sistema_global_de_navegaci%C3%B3n_por_sat%C3%A9lite)
 
 # Anexos
 
